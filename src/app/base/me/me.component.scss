@@ -1,0 +1,66 @@
+.me-content{
+    padding: 10px;
+    text-align: center;
+
+    .card{
+        background-color: rgba(5, 101, 196, 0.492);
+        box-shadow: -20px -20px 30px rgb(141, 181, 241);
+        display: inline-block;
+        width : 900px;
+        height: 100%;
+        border-radius: 30px;
+
+        h1{
+            padding-top: 40px;
+            text-align: center;
+            font-size: 40px;
+            color: rgb(4, 49, 90);
+        }
+    }
+
+    #content{
+        display: flex;
+
+        .left-side{
+            width : 500px;
+            height : 400px;
+
+            .circle{
+                display: inline-block;
+                width: 300px;
+                height : 300px;
+                margin-top: 20px;
+                border-radius: 150px;
+                overflow: hidden;
+            }
+                img{
+                    width: 100%;
+                    height : auto;
+                    padding-top: 20px;  
+            }
+        }
+        .right-side{
+            width : 500px;
+            height : 400px;
+            margin-top: 20px;
+            text-align: left;
+            font-size: 20px;
+
+            .about{
+                width: 100%;
+                display: inline-block;  
+            }
+            .about p label {
+                width: 120px;
+                color: rgb(254, 249, 255);
+                display: inline-block;
+            }
+            .about p span{
+                color: rgb(0, 31, 75);
+                display: inline-block;
+                width : 300px
+            }
+        }
+    }
+    
+}

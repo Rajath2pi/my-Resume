@@ -1,0 +1,15 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.header-comp, .base-comp, .footer-comp{
+    font-family:Lucida Console;
+    
+}
+.header-comp{
+    width : 100%;
+    position : sticky;
+    top: 0;
+    width: 100%;
+}
+
+.base-comp{ 
+}

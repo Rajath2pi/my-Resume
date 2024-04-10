@@ -1,0 +1,22 @@
+@import "../../../../node_modules/bootstrap/scss/bootstrap";
+
+.content{
+    padding-top: 50px;
+    width : 60%;
+    height: 50%;
+}
+
+.experience-card{
+    border: solid 2px black;
+    border-radius: 10px;
+}
+
+.my-slides{
+    padding: 0 25px 0 25px ;
+}
+img{
+    size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+

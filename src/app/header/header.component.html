@@ -1,0 +1,14 @@
+<div class="header">
+    <div class="nav-me">
+        <h1>{{candidateName}}</h1>
+    </div>
+    <div class="nav-menu">
+        <ul>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/me']">Me</a></li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/experiance']">Experience</a></li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/skills']">Skills</a></li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}"><a [routerLink]="['/projects']">Projects</a></li>
+        </ul>
+    </div>
+    
+</div>
